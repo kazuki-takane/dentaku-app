@@ -1,0 +1,38 @@
+body {
+    background-color: #e7e7e7;
+}
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+.dentaku-title {
+    text-align: center;
+}
+input {
+    display: block;
+    margin: 1rem auto;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 1px gray;
+    padding: 4px;
+}
+input:focus {
+    outline: none;
+}
+button {
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid gray;
+    box-shadow: 0 0 1px gray;
+    width: 48px;
+    height: 48px;
+}
+.btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
